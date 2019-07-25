@@ -6,9 +6,6 @@
 */
 
 /*Main*/
-* {
-  box-sizing: border-box;
-}
 
 body{
   color: #B1B9C1;
@@ -40,7 +37,6 @@ ul li {
 .row {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 /*Typography*/
@@ -342,6 +338,11 @@ footer {
   }
 }
 
-header {
-  background-color: white;
-}
+
+
+
+
+
+
+
+
