@@ -5,3 +5,9 @@ $(".animsition").animsition({
   inDuration: 1000,
   outDuration: 500
 });
+
+$(document).ready(function () {
+  $(".header").sticky({
+    topSpacing: 0
+  });
+});
