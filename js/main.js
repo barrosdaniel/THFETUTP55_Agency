@@ -8,6 +8,11 @@ $(".animsition").animsition({
   outDuration: 500
 });
 
+$('header').sticky({
+  getWidthFrom: '.container',
+  responsiveWidth: true
+})
+
 // Sticky jQuery Plugin
 // Make navigation bar sticky
 $(document).ready(function () {
@@ -27,12 +32,13 @@ $(document).ready(function () {
 // work.html > Make 'Want us to work on your project?' sticky and add email link
 $(document).ready(function () {
   $('.grid-full h5').sticky({
-    topSpacing: 64
+    topSpacing: 64,
+    getWidthFrom: '.container',
+    responsiveWidth: true
   })
 
-  const emailLink = ` <a href="mailto: barros.daniel@outlook.com">Email</a>`;
-
   $('.grid-full h5').on('sticky-start', function () {
+    const emailLink = ` <a href="mailto: barros.daniel@outlook.com">Email</a>`;
     $(this).append(emailLink);
   });
 
