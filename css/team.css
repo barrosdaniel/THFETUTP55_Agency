@@ -1,0 +1,15 @@
+body {
+  background-color: #111;
+}
+
+
+/* Sticky Plugin */
+.is-sticky .header {
+  background-color: #111;
+}
+
+
+/* Slick Plugin */
+.slick-dots {
+  bottom: -45px;
+}
