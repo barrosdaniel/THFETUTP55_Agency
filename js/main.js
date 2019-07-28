@@ -1,6 +1,6 @@
 $(".animsition").animsition({
-  inClass: 'fade-in-right-lg',
-  outClass: 'fade-out-right-lg',
+  inClass: 'fade-in',
+  outClass: 'fade-out',
   linkElement: 'header a',
   inDuration: 1000,
   outDuration: 500
@@ -24,34 +24,9 @@ $('.work').sticky({
   getWidthFrom: '.container',
   responsiveWidth: true
 });
-$('.work').on('sticky-start', function() {
+$('.work').on('sticky-start', function () {
   $(this).append(' <a href="mailto:email@website.com" class="email-text">Email&nbsp;us</a>');
 });
-$('.work').on('sticky-end', function() {
-    $('.email-text').remove();
+$('.work').on('sticky-end', function () {
+  $('.email-text').remove();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
